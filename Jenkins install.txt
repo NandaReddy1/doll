@@ -1,0 +1,11 @@
+Jenkins install
+
+sudo apt-get update
+sudo add-apt-repository ppa:webupd8team/java
+sudo apt-get update
+sudo apt-get install oracle-java8-installer
+wget http://mirrors.jenkins.io/war-stable/latest/jenkins.war
+sudo apt-get install -y git maven
+java -jar jenkins.war
+
+
